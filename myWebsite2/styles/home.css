@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+    font-family: Helvetica, sans-serif;
+    font: 100%;
+    margin: auto;
+	background-size: cover;
+    background: whitesmoke url(../clipart/nelson.jpg) top left fixed;
+    
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, serif;
+}
+
+#nav {
+    float: left;
+    width: 100%;
+    margin: auto;
+}
+
+#nav ul {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    margin: 5px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#nav a:hover {color: white;}
+
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    border-radius: .5em;
+    font-size: 16px;
+}
+
+#main {
+    width: 25%;
+    margin: 1em 45% 1em 10%;
+    float: left;
+    padding: 1%;
+    
+}
+
+#footer {
+    float: left;
+    margin: 10% 20% 2em 10%;
+    width: 80%;
+}
+
+#footer ul {
+    width: 90%;
+    border-bottom: 1px solid black;
+    float: left;
+}
+
+table {
+    float: left;
+    width: 80%;
+    margin: 2%; 
+    background-color: ghostwhite;
+    border-radius: .5em;
+    padding: .25em
+}
+
+#footer p {
+    float:left;
+    width: 100%;
+    text-align: center;
+}
