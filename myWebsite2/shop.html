@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Shop Now!</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="icons/logo.png" type="image/icon type">
+        <link rel="stylesheet" href="styles/shop.css" type="text/css">
+    </head>
+    
+    <body>
+    
+                
+        <div id="nav">
+            <small>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="info.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="signin.html">Login</a></li>
+                </ul>
+		    </small>
+		</div>
+		
+		<div id="header">
+            <h1><form action="/search.asp" method="post">
+                <label for="search"><img src="icons/logo.png" alt="logo" width="65" height="65" class="logo" align="center"> MashTech</label>
+				<input type="text" name="search" id="search" placeholder="Shop Now!">
+            </form></h1>
+        </div> 
+        
+        <div id="categories">
+            <ul>
+                <li><a href="">Laptops</a></li>
+                <li><a href="">Desktops</a></li>
+                <li><a href="">SmartPhones</a></li>
+                <li><a href="">Tablets</a></li>
+                <li><a href="">Accessories</a></li>
+                <li><a href="">SmartWatches</a></li>
+                <li><a href="">FlatScreen TVs</a> </li>
+                <li><a href="">Smart TVs</a></li>
+                <li><a href="">Home appliances</a></li>
+                <li><a href="">Scanners</a></li>
+                <li><a href="">Printers</a></div></li>
+            </ul>
+        
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="products/hp1.jpg" style="width:100%">
+                <div class="description">
+                    <h4>HP pavilion x360</h4>
+                    <p>Tablet or Laptop? Check out the ultra thin and classy new HP pavilion 
+                        with a touch screen for both modes. Check it out now!!</p>
+                    <a href="product.html">Buy</a>
+                </div>
+                <div class="text">Caption One</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="products/jens-kreuter-PKnn-nXCNhs-unsplash.jpg" style="width:100%">
+               <div class="description" style="color:white">
+                   <h3>FT30 Smart Watch</h3>
+                   <p>Read and reply messages, get weather updates, receive and make calls!! 
+                       It is more than a smartwatch. Buy while stocks last!</p>
+                   <a href="product.html">Buy</a>
+                </div>
+                <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="products/nokia-6-2_156803215270.jpg" style="width:100%">
+                <div class="description">
+                   <h3>Nokia 6.2</h3>
+                   <p>Check out the new Nokia 6.2 with features that will blow up your and 
+                       a very cheap and affordable price. Wow Nokia is back but with the latest android version.</p>
+                   <a href="product.html">Buy</a>
+                </div>
+                <div class="text">Caption Three</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="products/M4.jpg" style="width:100%">
+                <div class="description">
+                    <h3>M4 Smartband</h3>
+                    <p>Trying to keep fit? Meet your daily targets with the new M4 smartband. 
+                        Measures heartbeat, distance covered, body temperature to ensure you are 
+                        healthy. It comes with cool apps to help you evaluate and analyse your targets.
+                         Check it out now!!</p>
+                    <a href="product.html">Buy</a>
+                </div>
+                <div class="text">Caption Four</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <div id="popular_products">
+            
+            <h3>Popular Products</h3>
+           
+                <ul>
+                    <li>
+                        <img src="products/hp2.jpg" alt="hp2" width="135" height="85">
+                        <h5>Hp pavilion X360</h5>
+                        <p>Core i5, Touchscreen, Tablet Mode, 320 HDD, 11 inch screen, super light weight</p>
+                        <p style="font-size: 0.9em"><span class="price">KSh 32500</span></p>
+                    </li>
+                    <li>
+                        <img src="products/FT30.jpg" alt="FT30" width="135" height="85">
+                        <h5>FT30 Smartwatch</h5>
+                        <p>Heart beat sensor, GPS, Gyroscope, Notifications, Bluetooth 5.0</p>
+                        <p style="font-size: 0.9em"><span class="price">KSh 3500</span></p>
+                    
+                    </li>
+                    
+                    <li>
+                        <img src="products/M4.jpg" alt="FT30" width="135" height="85">
+                        <h5>M4 Smartband</h5>
+                        <p>Heart beat sensor, Pedometer, Sleep monitor, Water proof</p>
+                        <p style="font-size: 0.9em"><span class="price">KSh 500</span></p>
+                    
+                    </li>
+                    
+                    <li>
+                        <img src="products/nokia-6-2_156803215270.jpg" alt="Nokia 6.2" width="135" height="85">
+                        <h5>Nokia 6.2</h5>
+                        <p>4GB RAM, 64GB internal, Gyroscope, 3500mAh Battery, Bluetooth 5.0</p>
+                        <p style="font-size: 0.9em"><span class="price">KSh 21500</span></p>
+                    
+                    </li>
+                </ul>
+            
+            <a href="">VIEW MORE</a>
+        </div>
+        
+        <br>
+        
+        <div id="featured_products">
+            
+            <h3 style="float: left">Featured Products</h3>
+            
+                <ul>
+                    <li>
+                        <img src="products/hp2.jpg" alt="hp2" width="135" height="85">
+                        <h5>Hp pavilion X360</h5>
+                        <p>Core i5, Touchscreen, Tablet Mode, 320 HDD</p>
+                        <p style="font-size: 0.9em"><span class="price">KSh 32500</span></p>
+                    </li>
+                    <li>
+                        <img src="products/FT30.jpg" alt="FT30" width="135" height="85">
+                        <h5>FT30 Smartwatch</h5>
+                        <p>Heart beat sensor, GPS, Gyroscope, Notifications, Bluetooth 5.0</p>
+                        <p style="font-size: 0.9em"><span class="price">KSh 3500</span></p>
+                    </li>
+                    
+                    <li>
+                        <img src="products/M4.jpg" alt="M4" width="135" height="85">
+                        <h5>FT30 Smartwatch</h5>
+                        <p>Heart beat sensor, GPS, Gyroscope, Notifications, Bluetooth 5.0</p>
+                        <p style="font-size: 0.9em"><span class="price">KSh 500</span></p>
+                    </li>
+                    
+                    <li>
+                        <img src="products/nokia-6-2_156803215270.jpg" alt="Nokia 6.2" width="135" height="85">
+                        <h5>FT30 Smartwatch</h5>
+                        <p>Heart beat sensor, GPS, Gyroscope, Notifications, Bluetooth 5.0</p>
+                        <p style="font-size: 0.9em"><span class="price">KSh 22500</span></p>
+                    </li>
+                </ul>
+            
+            <a style="float: left" href="">VIEW MORE</a>
+        </div>
+        
+        <div id="footer">
+            
+        <table>
+            <tr>
+                <th><img src="icons/shipping.png" alt="shipping" width="25" height="25" align="center"> Fast Shipping</th>
+                <th><img src="icons/cash.png" alt="cash" width="25" height="25" align="center"> Cash on Delivery</th>
+                <th><img src="icons/return.png" alt="return" width="25" height="25" align="center"> 30 days Return</th>
+            </tr>
+        </table>
+        
+            
+            <div class="miscallenious">
+                <h2>MashTech</h2>
+                <p>Your number one online store with cool affordable offers and discounts. Founded in 2020, we look forward to being the best online market in East Africa. Grow with us and keep shopping with us. </p>
+            
+            </div>
+            
+            <div class="miscallenious">
+                
+                <ul>
+                    <li><h3>Policy Info</h3></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of Use</a></li>
+                    <li><a href="">Terms of Service</a></li>
+                    <li><a href="">Report Abuses </a></li>
+                    <li><a href="">Take Down Policy</a></li>
+                    <li><a href="">CSR Policy</a></li>
+                </ul>
+            </div>
+            
+            <div class="miscallenious">
+               
+                <ul>
+                    <li><h3>Company</h3></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">SiteMap</a></li>
+                </ul>
+                
+            </div>
+            
+            <div class="miscallenious">
+
+                <ul>
+                    <li><h3>Business</h3></li>
+                    <li><a href="">Sell on MashTech</a></li>
+                    <li><a href="">Advertise with Us</a></li>
+                    <li><a href="">Be an Affiliate</a></li>
+                    <li><a href="">Deal of the Day</a></li>
+                    <li><a href="">Media Enquiries</a></li>
+                </ul>
+            </div>
+            
+            <h4 style="text-align: left">JOIN US ON</h4>
+            <ul>
+            <li><a href="http://www.facebook.com/mashtech"><img src="icons/facebook.png" alt="facebook" width="25" height="25"></a></li>
+            <li><a href="http://www.twitter.com/newtonrapando"><img src="icons/twitter.png" alt="facebook" width="25" height="25"></a></li>
+            <li><a href="http://www.instagram.com/newton_rapando"><img src="icons/instagram.png" alt="facebook" width="25" height="25"></a></li>
+            </ul>
+            
+            <p>All copyrights &copy; MashTech e-Mart 2020</p>
+        </div>
+        
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                
+                if (n > slides.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = slides.length}
+                
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+        
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+            }
+            
+            
+
+        </script>
+
+        
+    </body>
+</html>
