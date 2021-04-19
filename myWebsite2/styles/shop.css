@@ -3,28 +3,32 @@
 *{box-sizing: border-box}
 
 body {
-    font: 100% Helvetica, sans-serif;
+    font: 100% Calibri, sans-serif;
     margin: 0;
-    font: 100%;
-    background-color: whitesmoke;
+    background-color: #f1f1f1;
     
+}
+
+header {
+    margin-top: .1%;
+    position: fixed;
+    width: 100%;
+    background-color: whitesmoke;
 }
 
 .mySlides {
     display: none;
 }
 
+.slideshow-container {
+    max-width: 900px;
+    margin: 0 2% 0 15%;
+    position: relative;}
+
 .slideshow-container img {
     max-height: 500px;
     vertical-align: middle;
     border-radius: 1em;
-}
-
-.slideshow-container {
-    max-width: 1250px;
-    margin: 0 2% 0 15%;
-    position: relative;
-    
 }
 
 .prev, .next {
@@ -115,14 +119,19 @@ body {
     .prev, .next,.text {font-size: 11px}
 }
 
-#nav {
+h1 {
+    font-family: Garamond;
+}
+
+nav {
     width: 100%;
     float: left;
     margin: auto;
+    font-size: .75em;
     /*position: fixed;*/
 }
 
-#nav ul {
+nav ul {
     float: right;
     margin: 0;
     padding: 0;
@@ -132,7 +141,7 @@ ul {
     list-style-type: none;
 }
 
-#nav ul li { float: left;}
+nav ul li { float: left;}
 
 ul li a {
     
@@ -142,6 +151,13 @@ ul li a {
 
 a {
     text-decoration: none;
+}
+
+main {
+    width: 100%;
+    /*margin: 1em 45% 1em 10%;*/
+    float: left;
+    padding-top: 11%;
 }
 
 input[type=text]{
@@ -175,7 +191,7 @@ input[type=text]{
     width: 100%;
 }
 
-#footer {
+footer {
     float: left;
     margin: 0 10% 0 10%;
 }
@@ -183,11 +199,6 @@ input[type=text]{
 #categories {
     margin: 0;
     float: left;
-}
-
-#header {
-    float: none;
-   /* position: fixed;*/
 }
 
 .miscallenious {
@@ -207,36 +218,69 @@ table {
     padding: .25em
 }
 
-#footer {
+footer {
     float: left;
     margin: 1% 20% 2em 10%;
     width: 80%;
 }
 
-#footer p, h4 {
+footer h4 {
     float:left;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
-#footer ul {
+footer ul {
     width: 100%;
     /*border-bottom: 1px solid black;*/
     float: left;
 }
 
-#footer ul li a img {
+footer ul li a img {
     display: block;
     float: left;
     margin: .5em;
     
 }
 
-#footer ul {
+footer ul {
     margin: -2% -5%;
 }
-/*.miscallenious ul li {
-    list-style-position: inside;
-}*/
 
+.copyright {
+    text-align: center;
+    font-size: .75em;
+    float: left;
+    width: 100%;
+    margin: 5% 1%;
+}
 
+.price {
+    font: italic bold 0.75em Verdana;
+}
+
+.description a {
+    color: black;
+    background-color: aliceblue;
+    border-radius: .5em;
+    padding: 1% 6% 1% 6%;
+}
+
+.miscallenious a {
+    display: block;
+    margin: 5% 5%;
+}
+
+.miscallenious i {
+    margin-right: 3%;
+    
+}
+
+#social_media, #contacts {
+    float: left;
+    width: 100%;
+}
+
+#social_media a {
+    margin-right: .5%;
+}
