@@ -22,10 +22,6 @@ h5 {
     font: bold 120% Garamond, serif;
 }
 
-h2,h3,h4,h5 {
-    text-align: center;
-}
-
 
 
 #nav_acc li i {
@@ -34,9 +30,9 @@ h2,h3,h4,h5 {
 
 #featured_products img, #popular_products img {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  margin: 1em auto 1em auto;
+ max-width: 100%;
+    border-radius: .5em;
 }
 
 main {
@@ -51,11 +47,18 @@ nav ul li a i {
             display: none;
         }
     }
+
+/*@media (max-width: 450px){
+        .brand_name  {
+            display: none;
+        }
+    }
+*/
 @media (max-width: 650px){
         #headersearch {
             display: none;
         }
-    }
+}
 
 @media (max-width:350px){
     
@@ -63,6 +66,19 @@ nav ul li a i {
  #wrapper {
     overflow-x: hidden;
  }
+
+#myCarousel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#myCarousel img {
+    max-width: 100%;
+    height: 10%;
+    box-sizing: content-box;
+}
 
 #sidebar-wrapper {
   min-height: 100vh;
@@ -104,7 +120,45 @@ nav ul li a i {
     margin-left: -15rem;
   }
 }
+#popular_products, #featured_products {
+    width: 90%;
+    margin: 5% 5%;
+    
+}
+.item {
+    background-color: #ffffff;
+    padding: 1em;
+    border-radius: .25em;
+    text-align: center;
+    float: left;
+    display: inline-table;
+    width: 45%;
+    margin: 2% 2%;
+    
+}
 
+/*.miscallenious {
+    display: inline-table;
+    width: 43%;
+    margin-right: 6%;
+    
+}*/
+
+.price {
+    font: italic bold 0.75em Verdana;
+}
+
+#social media {
+    float: left;
+    width: 30%;
+    display: inline-table;
+}
+
+#contacts {
+    float: left;
+    width: 30%;
+    display: inline-table;
+}
 
 #social_media a {
     margin-right: .5%;
@@ -112,6 +166,34 @@ nav ul li a i {
 
 #social_media a i {
     color: #000000;
+    
+}
+
+#newsletter {
+   text-align: center;
+    float: left;
+    width: 100%;
+    margin: 5% 1%;
+    border: solid blue 1px;
+    border-radius: 1em;
+    padding: 1%;
+    background-color: #e7f3f1;
+}
+
+#mail_list {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+#contacts a i {
+    display: block;
+    margin-top: 1%;
+    color: #000000;
+}
+
+#email {
+    border-bottom: solid blue .1em;
 }
 
 footer {
@@ -120,7 +202,20 @@ footer {
 
 .copyright {
     text-align: center;
-    width: 10%;
-    background-color: aliceblue;
+    font-size: .95em;
+    float: left;
+    width: 100%;
+    margin: 5% 1%;
 }
 
+table {
+    width: 100%;
+    margin: 2% 2%;
+    text-align: center;
+    background-color: #fdfdfd;
+    border-radius: .2em;
+}
+
+table th {
+    padding: 1em;
+}
