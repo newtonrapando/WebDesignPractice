@@ -89,96 +89,126 @@
         <div class="container">
                     
             <main>
-                            
-                <!--div id="categories">
-                    <ul>
-                        <li><a href="">Laptops</a></li>
-                        <li><a href="">Desktops</a></li>
-                        <li><a href="">SmartPhones</a></li>
-                        <li><a href="">Tablets</a></li>
-                        <li><a href="">Accessories</a></li>
-                        <li><a href="">SmartWatches</a></li>
-                        <li><a href="">FlatScreen TVs</a> </li>
-                        <li><a href="">Smart TVs</a></li>
-                        <li><a href="">Home appliances</a></li>
-                        <li><a href="">Scanners</a></li>
-                        <li><a href="">Printers</a></li>
+                
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
                     </ul>
-                </div-->
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="products/hp1.jpg" alt="Los Angeles" width="1000">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="products/FT30.jpg" alt="Chicago" width="1000">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="products/nokia-6-2_156803215270.jpg" alt="Nokia" width="1000">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="products/M4.jpg" alt="New York" width="1000">
+                        </div>
+                    </div>
+                    
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    
+                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+                
                 <div id="popular_products">
+                    <h3>Popular Products</h3>
                     <div class="row">
-                        <div class="col-sm-3">
-                            <h5>HP pavilion x360</h5>
-                            <img class="img-fluid" src="products/hp1.jpg" alt="hp2" width="135" height="85">
+                        <div class="col-lg-6">
+                            <div class="item"><h5>HP pavilion x360</h5>
+                            <img class="img-fluid" src="https://raw.githubusercontent.com/newtonrapando/WebDesignPractice/main/myWebsite2/products/hp1.jpg" alt="hp1" width="135">
                             <p>Tablet or Laptop? Check out the ultra thin and classy new HP pavilion with a touch screen for both modes. Check it out now!!</p>
                             <p><span class="price">KSh 22500</span></p>
-                        </div>
-                        <div class="col-sm-3">
-                            <h5>FT30 Smart Watch</h5>
-                            <img class="img-fluid" src="products/jens-kreuter-PKnn-nXCNhs-unsplash.jpg" alt="FT30" width="135" height="85">
+                        </div><!--/div>
+                        <div class="col-md-3"-->
+                            <div class="item"><h5>FT30 Smart Watch</h5>
+                            <img class="img-fluid" src="https://raw.githubusercontent.com/newtonrapando/WebDesignPractice/main/myWebsite2/products/jens-kreuter-PKnn-nXCNhs-unsplash.jpg" alt="FT30" width="135">
                             <p>Read and reply messages, get weather updates, receive and make calls!! 
                        It is more than a smartwatch. Buy while stocks last!</p>
                             <p><span class="price">KSh 3500</span></p>
-                        </div>
-                        <div class="col-sm-3">
-                            <h5>Nokia 6.2</h5>
-                            <img class="img-fluid" src="products/nokia-6-2_156803215270.jpg" alt="M4" width="135" height="85">
+                        </div></div>
+                        <div class="col-lg-6">
+                            <div class="item"><h5>Nokia 6.2</h5>
+                            <img class="img-fluid" src="https://raw.githubusercontent.com/newtonrapando/WebDesignPractice/main/myWebsite2/products/nokia-6-2_156803215270.jpg" alt="Nokia_6.2" width="135" >
                             <p>Check out the new Nokia 6.2 with features that will blow up your and 
                        a very cheap and affordable price. Wow Nokia is back but with the latest android version.</p>
                             <p><span class="price">KSh 50000</span></p>
-                        </div>
-                        <div class="col-sm-3">
-                            <h5>M4 smartband</h5>
-                            <img class="img-fluid" src="products/M4.jpg" alt="Nokia 6.2" width="135" height="85">
-                            <p>Trying to keep fit? Meet your daily targets with the new M4 smartband. 
-                        Measures heartbeat, distance covered, body temperature to ensure you are 
-                        healthy. It comes with cool apps to help you evaluate and analyse your targets.
-                         Check it out now!!</p>
+                            </div><!--/div>
+                        <div class="col-md-3"-->
+                            <div class="item"><h5>M4 smartband</h5>
+                            <img class="img-fluid" src="https://raw.githubusercontent.com/newtonrapando/WebDesignPractice/main/myWebsite2/products/M4.jpg" alt="M4" width="135" >
+                            <p>Measures heartbeat, distance covered, body temperature to ensure you are 
+                        healthy. Check it out now!!</p>
                             <p><span class="price">KSh 12500</span></p>
-                        </div>
+                            </div></div>
                     </div>
                 </div>
                 
                 <div id="featured_products">
+                    <h3>Featured Products</h3>
                     <div class="row">
-                        <div class="col-sm-3">
-                            <h5>Hisense Smart TV</h5>
-                            <img class="img-fluid" src="products/smart%20TV.jpg" alt="hp2" width="135" height="85">
+                        <div class="col-lg-6">
+                            <div class="item"><h5>Hisense Smart TV</h5>
+                            <img class="img-fluid" src="https://raw.githubusercontent.com/newtonrapando/WebDesignPractice/main/myWebsite2/products/smart%20TV.jpg" alt="smart_tv" width="135" height="85">
                             <p>24 inches, Touchscreen, Android 11, Netflix, Youtube, Chromecast inbuilt</p>
                             <p><span class="price">KSh 22500</span></p>
-                        </div>
-                        <div class="col-sm-3">
-                            <h5>JBL earpods</h5>
-                            <img class="img-fluid" src="products/earpods.jpg" alt="FT30" width="135" height="85">
-                            <p>High Bass output, Noise cancellation, long battery duration, In ear sound engineering, Bluetooth 5.0</p>
+                            </div><!--/div>
+                        <div class="col-sm-3"-->
+                            <div class="item"><h5>JBL earpods</h5>
+                            <img class="img-fluid" src="https://raw.githubusercontent.com/newtonrapando/WebDesignPractice/main/myWebsite2/products/earpods.jpg" alt="earpods" width="135" height="85">
+                            <p>High Bass output, Noise cancellation, long battery duration, Bluetooth 5.0</p>
                             <p><span class="price">KSh 3500</span></p>
-                        </div>
-                        <div class="col-sm-3">
-                            <h5>Iphone 11</h5>
-                            <img class="img-fluid" src="products/iphone.jpg" alt="M4" width="135" height="85">
+                            </div></div>
+                        <div class="col-lg-6">
+                            <div class="item"><h5>Iphone 11</h5>
+                            <img class="img-fluid" src="https://raw.githubusercontent.com/newtonrapando/WebDesignPractice/main/myWebsite2/products/iphone.jpg" alt="iphone" width="135" height="85">
                             <p>1GB RAM, 64GB, 12MP Camera, 4.7inch</p>
                             <p><span class="price">KSh 50000</span></p>
-                        </div>
-                        <div class="col-sm-3">
-                            <h5>Microwave Oven</h5>
-                            <img class="img-fluid" src="products/microwave.jpg" alt="Nokia 6.2" width="135" height="85">
-                            <p>Advanced Magnetron Design, High temp working capacity, Easy to operate, Cost effective</p>
+                            </div><!--/div>
+                        <div class="col-sm-3"-->
+                            <div class="item"><h5>Microwave Oven</h5>
+                            <img class="img-fluid" src="https://raw.githubusercontent.com/newtonrapando/WebDesignPractice/main/myWebsite2/products/microwave.jpg" alt="microwave" width="135" height="85">
+                            <p>Advanced Magnetron Design, Cost effective</p>
                             <p><span class="price">KSh 12500</span></p>
-                        </div>
+                            </div></div>
                     </div>
+                    
                 </div>
             </main>
             
             
             <footer>
                 
+                <div id="newsletter">
+                    <h5>Mailing List Signup</h5>
+                    <p>Get news about our special offers and discounts sent to your own in-box.</p>
+                    <form class="form-inline" action="/action_page.php" id="mail_list">
+                        <input type="email" class="form-control mb-2 mr-sm-2" placeholder=Email id="email">
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                    </form>
+                </div>
+                <br>
+
+                
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <div class="miscallenious">
-                            <h2>About</h2>
+                            <h4>About</h4>
                             <p>Your number one online store with cool affordable offers and discounts. Founded in 2020, we look forward to being the best online market in East Africa. Grow with us and keep shopping with us. </p>
-                        </div>
-                    </div>
+                        </div></div>
                     <div class="col-sm-2">
                         <div class="miscallenious">
                             <ul>
@@ -192,7 +222,8 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-3">
+                        
                         <div class="miscallenious">
                             <ul>
                                 <li><h4>Company</h4></li>
@@ -202,9 +233,8 @@
                                 <li><a href="">Contact Us</a></li>
                                 <li><a href="">SiteMap</a></li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
+                        </div></div>
+                   <div class="col-sm-2">
                         <div class="miscallenious">
                             <ul>
                                 <li><h4>Business</h4></li>
@@ -214,37 +244,20 @@
                                 <li><a href="">Deal of the Day</a></li>
                                 <li><a href="">Media Enquiries</a></li>
                             </ul>
-                        </div>
-                    </div>
+                        </div></div>
                 </div>
                 
+                <br>
+                                
                 <div id="social_media">
-                    <h4 style="text-align: left">JOIN US ON</h4>
+                    <h5 style="text-align: left">JOIN US ON</h5>
                     <a href="http://www.facebook.com/newton.rapando.31/" target="_blank"><i class="fab fa-facebook"></i></a>
                     <a href="http://www.twitter.com/newton_masheti" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="http://www.instagram.com/newton_rapando" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="http://www.instagram.com/masheties" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="http://api.whatsapp.com/send?phone=254713911070" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 </div>
                 <br>
-                <div id="newsletter">
-                    <form action="/mailinglist.asp" method="post">
-                        <fieldset>
-                            <legend>Mailing List Signup</legend>
-                            <p>Get news about our special offers and discounts sent to your own in-box.</p>
-                            <ul>
-                                <li><label for="firstlast">Name:</label>
-                                    <input type="text" name="username" id="firstlast">
-                                </li>
-                                <li>
-                                    <label for="email">Email:</label>
-                                    <input type="text" name="email" id="email">
-                                </li>
-                            </ul>
-                            <input type="submit" value="Submit">
-                        </fieldset>
-                    </form>
-                </div>
-                <br>
+
                 
                 <p><span class="copyright">All copyrights &copy; MashTech e-Mart 2020</span></p>
             </footer>
